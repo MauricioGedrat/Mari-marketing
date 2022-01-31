@@ -9,6 +9,7 @@ import AboutSvg from 'common/svgIcons/AboutSvg'
 import ResumeSvg from 'common/svgIcons/ResumeSvg'
 import FolioSvg from 'common/svgIcons/FolioSvg'
 import ServicesSvg from 'common/svgIcons/ServicesSvg'
+import WhatsappSvg from 'common/svgIcons/Whatsapp'
 
 const SideBar = () => {
     const [show, setShow] = useState(false)
@@ -40,13 +41,25 @@ const SideBar = () => {
                                     Marina Gedrat
                                 </h1>
                             </div>
-                            <div className="flex items-center justify-center bg-[#6a9e7b] w-9 h-9 mt-2 hover:opacity-60 duration-300 mx-auto rounded-md p-2">
-                                <a
-                                    href="https://www.instagram.com/marig_mkt/"
-                                    target={'break'}
-                                >
-                                    <Instagram />
-                                </a>
+                            <div className="flex justify-center">
+                                <div className="flex items-center justify-center -mr-20 bg-[#6a9e7b] w-9 h-9 mt-2 hover:opacity-60 duration-300 mx-auto rounded-md p-2">
+                                    <a
+                                        href="https://www.instagram.com/marig_mkt/"
+                                        target={'break'}
+                                        className=""
+                                    >
+                                        <Instagram />
+                                    </a>
+                                </div>
+                                <div className="flex items-center justify-center bg-[#6a9e7b] w-9 h-9 mt-2 hover:opacity-60 duration-300 mx-auto rounded-md p-2">
+                                    <a
+                                        href="https://api.whatsapp.com/send?phone=5551996370503&text=oii,%20poderia%20me%20ajudar%20a%20come%C3%A7ar%20com%20o%20Marketing%20Digital?"
+                                        target={'break'}
+                                        className=""
+                                    >
+                                        <WhatsappSvg />
+                                    </a>
+                                </div>
                             </div>
                             <div className="flex justify-center">
                                 <div>
@@ -110,7 +123,7 @@ const SideBar = () => {
                         </motion.aside>
                     </AnimatePresence>
                 ) : (
-                    <div className="flex items-center justify-center h-[50px] p-4 m-4 text-center duration-300 bg-[#457d58] rounded-lg cursor-pointer hover:opacity-75">
+                    <div className="flex items-center justify-center h-[50px] p-4 m-4 text-center duration-300 bg-[#95b89f5d] rounded-lg cursor-pointer hover:opacity-75">
                         <HamburgerSvg onClick={() => setShow(true)} />
                     </div>
                 )}
