@@ -1,5 +1,6 @@
 import SideBar from 'common/Sidebar'
 import About from 'components/About'
+import Contact from 'components/contact'
 import AppHome from 'components/Home'
 import Results from 'components/Results'
 import AppResume from 'components/Resume'
@@ -13,6 +14,7 @@ const index = () => {
             <About />
             <AppResume />
             <Results />
+            <Contact />
         </div>
     )
 }

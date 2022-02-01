@@ -16,13 +16,15 @@ const Modal = ({ show = false, onHide, children }) => {
                             className=" modal"
                         >
                             <div>
+                                <div className="flex justify-center sm:justify-end">
+                                    <button
+                                        onClick={onHide}
+                                        className=" fechar bg-[#00000070] p-2 rounded-md"
+                                    >
+                                        <XSvg />
+                                    </button>
+                                </div>
                                 {children}
-                                <button
-                                    onClick={onHide}
-                                    className="absolute top-24 right-44 fechar bg-[#00000070] p-2 rounded-md"
-                                >
-                                    <XSvg />
-                                </button>
                             </div>
                         </motion.main>
                     )}
