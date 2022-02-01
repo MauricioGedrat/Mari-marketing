@@ -32,12 +32,6 @@ const About = () => {
                                 <div>
                                     <p className="mt-4 xl:text-lg des ">
                                         <span className="font-bold">
-                                            Aniversário:
-                                        </span>{' '}
-                                        24 de set.
-                                    </p>
-                                    <p className="mt-4 xl:text-lg des ">
-                                        <span className="font-bold">
                                             Instagram:
                                         </span>{' '}
                                         mari_mkt
@@ -56,12 +50,6 @@ const About = () => {
                                     </p>
                                 </div>
                                 <div>
-                                    <p className="mt-4 xl:text-lg des ">
-                                        <span className="font-bold">
-                                            Idade:
-                                        </span>{' '}
-                                        16
-                                    </p>
                                     <p className="mt-4 xl:text-lg des ">
                                         <span className="font-bold">
                                             Especialidade:

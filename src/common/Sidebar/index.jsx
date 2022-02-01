@@ -16,7 +16,7 @@ const SideBar = () => {
 
     return (
         <div>
-            <main className="fixed z-50 flex h-screen">
+            <main className="fixed z-50 flex h-screen ">
                 {show ? (
                     <AnimatePresence>
                         <motion.aside
@@ -92,12 +92,12 @@ const SideBar = () => {
                                     </a>
                                     <a
                                         className="flex mt-4 font-semibold text-center text-[#8fc4a0] hover:text-[#7ca188] duration-300"
-                                        href="#Folio"
+                                        href="#Results"
                                     >
                                         <span className="mr-4">
                                             <FolioSvg className="text-[#8fc4a0]" />
                                         </span>
-                                        Portfólio
+                                        Resultados
                                     </a>
                                     <a
                                         className="flex mt-4 font-semibold text-center text-[#8fc4a0] hover:text-[#7ca188] duration-300"
@@ -111,19 +111,19 @@ const SideBar = () => {
                                 </div>
                             </div>
                             <footer className="flex items-center justify-center mt-20">
-                                <p className="font-semibold text-white">
+                                <div className="font-semibold text-white">
                                     <div>
                                         Designed by{' '}
                                         <span className="text-[#95b89f]">
                                             SCALAR ERP
                                         </span>
                                     </div>
-                                </p>
+                                </div>
                             </footer>
                         </motion.aside>
                     </AnimatePresence>
                 ) : (
-                    <div className="flex items-center justify-center h-[50px] p-4 m-4 text-center duration-300 bg-[#95b89f5d] rounded-lg cursor-pointer hover:opacity-75">
+                    <div className="flex fixed items-center justify-center h-[50px] p-4 m-4 text-center duration-300 bg-[#95b89f5d] rounded-lg cursor-pointer hover:opacity-75">
                         <HamburgerSvg onClick={() => setShow(true)} />
                     </div>
                 )}

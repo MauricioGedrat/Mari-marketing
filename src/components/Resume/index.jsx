@@ -1,5 +1,6 @@
 import Frame2Svg from 'common/svgIcons/Frame2Svg'
 import FrameSvg from 'common/svgIcons/FrameSvg'
+import Frame3Svg from 'common/svgIcons/FrameSvg3'
 import React from 'react'
 
 const AppResume = () => {
@@ -11,8 +12,8 @@ const AppResume = () => {
                     umo
                 </h1>
             </div>
-            <div className="flex justify-center gap-10">
-                <div className="flex items-center justify-center md:-ml-44">
+            <div className="gap-10 xl:flex xl:justify-center">
+                <div className="flex items-center justify-center ">
                     <div className="flex ">
                         <FrameSvg className="hidden sm:block" />
                         <div className="ml-8 sm:ml-0">
@@ -50,7 +51,7 @@ const AppResume = () => {
                                             Principais afiliações
                                         </h1>
                                     </div>
-                                    <div className="mt-2 ml-4 w-96">
+                                    <div className="mt-2 ml-4 sm:w-96">
                                         <em>
                                             O afiliado é o “representante
                                             comercial online”, que divulga um
@@ -77,9 +78,9 @@ const AppResume = () => {
                     </div>
                 </div>
                 <div>
-                    <div className="flex">
-                        <FrameSvg />
-                        <div>
+                    <div className="flex justify-center mt-0 md:-mt-7 xl:mt-0">
+                        <Frame3Svg className="hidden sm:block" />
+                        <div className="ml-8 sm:ml-0">
                             <div className="mt-2 ml-4">
                                 <h1 className="text-xl font-bold uppercase font-raleway">
                                     Educação e Recursos
@@ -93,6 +94,17 @@ const AppResume = () => {
                                     da educação, se garante o desenvolvimento
                                     social, económico e cultural.
                                 </em>
+                            </div>
+                            <div className="mt-2 ml-4">
+                                <ul className="font-semibold">
+                                    <li className="mb-5 list-disc">
+                                        Curso método milionário
+                                    </li>
+                                    <li className="mb-5 list-disc">
+                                        Curso método primeira venda em 7 dias
+                                        2.0
+                                    </li>
+                                </ul>
                             </div>
                         </div>
                     </div>
