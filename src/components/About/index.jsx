@@ -28,13 +28,13 @@ const About = () => {
                             </h1>
                         </div>
                         <div className="flex justify-center">
-                            <div className="md:grid md:grid-cols-2 ">
+                            <div>
                                 <div>
                                     <p className="mt-4 text-black xl:text-lg des">
                                         <span className="font-bold">
                                             Instagram:
                                         </span>{' '}
-                                        mari_mkt
+                                        @mari_mkt
                                     </p>
                                     <p className="mt-4 text-black xl:text-lg des">
                                         <span className="font-bold">
@@ -42,31 +42,19 @@ const About = () => {
                                         </span>{' '}
                                         51 99637-0503
                                     </p>
+                                </div>
+                                <div>
                                     <p className="mt-4 text-black xl:text-lg des">
                                         <span className="font-bold">
                                             Cidade:
                                         </span>{' '}
                                         Novo Hamburgo, RS
                                     </p>
-                                </div>
-                                <div>
-                                    <p className="mt-4 text-black xl:text-lg des">
-                                        <span className="font-bold">
-                                            Especialidade:
-                                        </span>{' '}
-                                        Pleno
-                                    </p>
                                     <p className="mt-4 text-black xl:text-lg des">
                                         <span className="font-bold">
                                             Email:
                                         </span>{' '}
                                         marinagedrat.mkt@gmail.com
-                                    </p>
-                                    <p className="mt-4 text-black xl:text-lg des">
-                                        <span className="font-bold">
-                                            Freelance:
-                                        </span>{' '}
-                                        Disponível
                                     </p>
                                 </div>
                             </div>
