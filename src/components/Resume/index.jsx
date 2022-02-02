@@ -5,9 +5,9 @@ import React from 'react'
 
 const AppResume = () => {
     return (
-        <div id="Resume" className="">
+        <div id="Resume" className="bg-white">
             <div className="flex justify-center p-24 text-4xl font-bold font-raleway">
-                <h1>
+                <h1 className="text-black">
                     <span className="border-b-4 border-[#95b89f]">Res</span>
                     umo
                 </h1>
@@ -18,12 +18,12 @@ const AppResume = () => {
                         <FrameSvg className="hidden sm:block" />
                         <div className="ml-8 sm:ml-0">
                             <div className="mt-2 ml-4">
-                                <h1 className="text-xl font-bold uppercase font-raleway">
+                                <h1 className="text-xl font-bold text-black uppercase font-raleway">
                                     Marina Gedrat
                                 </h1>
                             </div>
                             <div className="mt-2 ml-4 sm:w-96">
-                                <em>
+                                <em className="text-black">
                                     1 mês afiliando-se e vendendo material de
                                     marketing digital centrado no usuário, desde
                                     o conceito inicial até a entrega final e
@@ -32,13 +32,13 @@ const AppResume = () => {
                             </div>
                             <div className="mt-2 ml-4">
                                 <ul className="font-semibold">
-                                    <li className="mb-5 list-disc">
+                                    <li className="mb-5 text-black list-disc">
                                         NH, Rio Grande do Sul, BR
                                     </li>
-                                    <li className="mb-5 list-disc">
+                                    <li className="mb-5 text-black list-disc">
                                         {'(51)'} 99637-0503
                                     </li>
-                                    <li className="list-disc">
+                                    <li className="text-black list-disc">
                                         marinagedrat.mkt@gmail.com
                                     </li>
                                 </ul>
@@ -47,12 +47,12 @@ const AppResume = () => {
                                 <Frame2Svg className="hidden sm:block" />
                                 <div>
                                     <div className="mt-2 ml-4">
-                                        <h1 className="text-xl font-bold uppercase font-raleway">
+                                        <h1 className="text-xl font-bold text-black uppercase font-raleway">
                                             Principais afiliações
                                         </h1>
                                     </div>
                                     <div className="mt-2 ml-4 sm:w-96">
-                                        <em>
+                                        <em className="text-black">
                                             O afiliado é o “representante
                                             comercial online”, que divulga um
                                             produto, serviço ou marca para
@@ -63,10 +63,10 @@ const AppResume = () => {
                                     </div>
                                     <div className="mt-2 ml-4">
                                         <ul className="font-semibold">
-                                            <li className="mb-5 list-disc">
+                                            <li className="mb-5 text-black list-disc">
                                                 Curso método milionário
                                             </li>
-                                            <li className="mb-5 list-disc">
+                                            <li className="mb-5 text-black list-disc">
                                                 Curso método primeira venda em 7
                                                 dias 2.0
                                             </li>
@@ -82,12 +82,12 @@ const AppResume = () => {
                         <Frame3Svg className="hidden sm:block" />
                         <div className="ml-8 sm:ml-0">
                             <div className="mt-2 ml-4">
-                                <h1 className="text-xl font-bold uppercase font-raleway">
+                                <h1 className="text-xl font-bold text-black uppercase font-raleway">
                                     Educação e Recursos
                                 </h1>
                             </div>
                             <div className="mt-2 ml-4 sm:w-96">
-                                <em>
+                                <em className="text-black">
                                     A Educação é um direito fundamental que
                                     ajuda não só no desenvolvimento de um país,
                                     mas também de cada indivíduo. ... Por meio
@@ -97,10 +97,10 @@ const AppResume = () => {
                             </div>
                             <div className="mt-2 ml-4">
                                 <ul className="font-semibold">
-                                    <li className="mb-5 list-disc">
+                                    <li className="mb-5 text-black list-disc">
                                         Curso método milionário
                                     </li>
-                                    <li className="mb-5 list-disc">
+                                    <li className="mb-5 text-black list-disc">
                                         Curso método primeira venda em 7 dias
                                         2.0
                                     </li>

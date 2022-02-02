@@ -6,8 +6,8 @@ const About = () => {
     return (
         <div id="About" className="pb-10 bg-gray-200">
             <div className="flex justify-center p-10 pb-10 mx-6 text-4xl font-black md:pb-24 md:p-20 font-raleway">
-                <h1>
-                    <span className="border-b-4 border-[#95b89f]">Sobre</span>{' '}
+                <h1 className="text-black">
+                    <span className="border-b-4  border-[#95b89f]">Sobre</span>{' '}
                     Mim
                 </h1>
             </div>
@@ -30,19 +30,19 @@ const About = () => {
                         <div className="flex justify-center">
                             <div className="md:grid md:grid-cols-2 ">
                                 <div>
-                                    <p className="mt-4 xl:text-lg des ">
+                                    <p className="mt-4 text-black xl:text-lg des">
                                         <span className="font-bold">
                                             Instagram:
                                         </span>{' '}
                                         mari_mkt
                                     </p>
-                                    <p className="mt-4 xl:text-lg des ">
+                                    <p className="mt-4 text-black xl:text-lg des">
                                         <span className="font-bold">
                                             Whatsapp:
                                         </span>{' '}
                                         51 99637-0503
                                     </p>
-                                    <p className="mt-4 xl:text-lg des ">
+                                    <p className="mt-4 text-black xl:text-lg des">
                                         <span className="font-bold">
                                             Cidade:
                                         </span>{' '}
@@ -50,19 +50,19 @@ const About = () => {
                                     </p>
                                 </div>
                                 <div>
-                                    <p className="mt-4 xl:text-lg des ">
+                                    <p className="mt-4 text-black xl:text-lg des">
                                         <span className="font-bold">
                                             Especialidade:
                                         </span>{' '}
                                         Pleno
                                     </p>
-                                    <p className="mt-4 xl:text-lg des ">
+                                    <p className="mt-4 text-black xl:text-lg des">
                                         <span className="font-bold">
                                             Email:
                                         </span>{' '}
                                         marinagedrat.mkt@gmail.com
                                     </p>
-                                    <p className="mt-4 xl:text-lg des ">
+                                    <p className="mt-4 text-black xl:text-lg des">
                                         <span className="font-bold">
                                             Freelance:
                                         </span>{' '}
