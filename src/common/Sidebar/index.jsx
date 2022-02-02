@@ -101,12 +101,12 @@ const SideBar = () => {
                                     </a>
                                     <a
                                         className="flex mt-4 font-semibold text-center text-[#8fc4a0] hover:text-[#7ca188] duration-300"
-                                        href="#Services"
+                                        href="#Contact"
                                     >
                                         <span className="mr-4">
                                             <ServicesSvg className="text-[#8fc4a0]" />
                                         </span>
-                                        Serviços
+                                        Contato
                                     </a>
                                 </div>
                             </div>
