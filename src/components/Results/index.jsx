@@ -9,9 +9,9 @@ const Results = () => {
 
     console.log(imageToModal)
     return (
-        <div id="Results">
+        <div id="Results" className="bg-white">
             <div className="flex justify-center p-24 text-4xl font-bold font-raleway">
-                <h1>
+                <h1 className="text-black">
                     <span className="border-b-4 border-[#95b89f]">Resul</span>
                     tados
                 </h1>
