@@ -91,7 +91,7 @@ const Contact = () => {
                         <input
                             type="hidden"
                             name="_next"
-                            value="http://localhost:3000/#Home"
+                            value="https://marimarketing.vercel.app/#Home"
                         ></input>
                     </div>
                     <button className="px-6 py-2 text-lg text-white bg-[#95b89f] border-0 rounded focus:outline-none hover:bg-[#768f7d]">
